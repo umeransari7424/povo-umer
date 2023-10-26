@@ -6,10 +6,15 @@ import { FaFacebookF, FaMediumM } from "react-icons/fa";
 import { TiSocialYoutubeCircular } from "react-icons/ti";
 import { BsTelegram , BsDiscord} from "react-icons/bs";
 import {AiFillGithub} from "react-icons/ai";
+// import Particles from "../Config/Heroparticle";
 
 function Hero() {
   return (
-    <div className="herobg">
+    <div className="herobg position-relative">
+      {/* <div className="position-absolute">
+
+      <Particles />
+      </div> */}
       <div className="container py-5">
         <div className="row">
           <div className="col-md-6">
@@ -113,7 +118,8 @@ function Hero() {
                 <img className="img-fluid " src="Assets/7.png" alt="image7" style={{width:"300px"}} /> 
             
               </div>
-            </Carousel> <br /><br />
+            </Carousel> 
+            <br /><br />
             <div className="input-group mb-3">
   <span className="input-group-text token1" ><b>Token Address</b></span>
   <label type="text" className="form-control token2"  > 0x2a2d03a47ae6220312337d1f094badcd1ee948cc</label>

@@ -263,7 +263,9 @@ nav{
     width: 260px;
   }
 }
-
+.btnmore{
+  bottom: 0 !important;
+}
 
 .friendbg{
   background-color: black;
@@ -343,7 +345,7 @@ nav{
     color:black !important;
   }
   .card{
-    max-height: 420px !important;
+    max-height: 400px !important;
   }
   .itempara2{
     background-color: #8b0000!important;
@@ -420,12 +422,7 @@ nav{
   }
 }
 
-// .carousel-root{
-//   .control-arrow{
-    
-//   }
 
-// }
 .react-multi-carousel-list {
 
   display: flex;
